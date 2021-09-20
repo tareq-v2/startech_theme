@@ -1,0 +1,97 @@
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Create Admin</title>
+	<link rel="stylesheet" type="text/css" href="../assets/webfonts/all.min.css">
+	<link rel="stylesheet" href="https://fonts.maateen.me/adorsho-lipi/font.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.22/css/uikit.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/admin-style.css">
+</head>
+<body>
+        <div class="container-fluid add-admin-form">
+			<div class="row">
+				<div class="col-12">
+					<div class="form-title-layer">
+						<h5><i class="fas fa-users"></i>&nbsp;&nbsp;Add Admin</h5>
+					</div>
+				</div>
+			</div>
+			<form>
+				<div class="row">
+					<div class="col-2">
+						<label for="user_id">User ID</label>
+					</div>
+					<div class="col-10">
+						<input type="text" class="form-control" name="user_id">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label for="user_name">User Name</label>
+					</div>
+					<div class="col-10">
+						<input type="text" class="form-control" name="user_name">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label for="user_email">Email</label>
+					</div>
+					<div class="col-10">
+						<input type="email" class="form-control" name="user_email">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label for="user_phone">Phone Number</label>
+					</div>
+					<div class="col-10">
+						<input type="number" class="form-control" name="user_phone">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label for="user_password">Password</label>
+					</div>
+					<div class="col-10">
+						<input type="number" class="form-control" name="user_password">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label for="user_re_password">Re-enter Password</label>
+					</div>
+					<div class="col-10">
+						<input type="number" class="form-control" name="user_re_password">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label for="user_role">Role</label>
+					</div>
+					<div class="col-10">
+						<select name="user_role" class="form-control">
+							<option value="1">Admin</option>
+							<option value="1">Moderator</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12" style="text-align: center;">
+						<button class="btn btn-primary">Add</button>
+						<button class="btn btn-success">Update</button>
+						<button class="btn btn-warning" style="padding: auto 0;">View</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.22/js/uikit.min.js"></script>
+	<script src="../assets/js/jquery-3.5.1.slim.min.js"></script>
+	<script src="../assets/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/admin.js"></script>
+</body>
